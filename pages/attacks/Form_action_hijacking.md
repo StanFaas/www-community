@@ -15,7 +15,7 @@ auto-migrated: 1
 ## Overview
 
 Form action hijacking allows an attacker to specify the action URL of a
-form via a paramter. An attacker can construct a URL that will modify
+form via a parameter. An attacker can construct a URL that will modify
 the action URL of a form to point to the attacker's server. Form content
 including CSRF tokens, user entered parameter values, and any other of
 the forms content will be delivered to the attacker via the hijacked
